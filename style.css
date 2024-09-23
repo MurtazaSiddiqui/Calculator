@@ -36,9 +36,11 @@ button{
     border-radius: 16px;
 }
 @media only screen and (max-width: 767px){
-    button{
+    button {
         width: 66px;
         height: 50px;
+        width: 100%;
+        max-width: 90%;
     }
     .calculator{
         width: 100%;
@@ -48,8 +50,13 @@ button{
         height: 54px;
         border-radius: 12px !important;
         margin-bottom: 10px;
-        width: 90%;
+        width: 85%;
+        padding: 0 10px;
     }
-    
+    table {
+        /* margin: auto; */
+        width: 100%;
+        padding: 0 10px;
+    }
     
 }
